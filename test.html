@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- meta viewport for mobile touching zooming-->
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
@@ -21,6 +22,176 @@
   <body>
     <h1>Hello, world!</h1>
     <button class="btn btn-success">Click Me!</button>
+    <button type="button" class="btn btn-lg btn-primary">click it</button>
+    <button type="button" class="btn btn-lg btn-default">click me</button>
+    <p>
+      <button type="button" class="btn btn-lg btn-info">info</button>
+      <button type="button" class="btn btn-success">success</button>
+      <button type="button" class="btn btn-sm">default</button>
+    </p>
+    <div class="row">
+
+      <div class="col-md-8">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mod</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jaco</td>
+              <td>Thornton</td>
+              <td>@faf</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Larry</td>
+              <td>Bird</td>
+              <td>@TT</td>
+            <tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="col-md-8">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First name</th>
+              <th>Last name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mod</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Jaco</td>
+              <td>Thornton</td>
+              <td>@faf</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Larry</td>
+              <td>Bird</td>
+              <td>@TT</td>
+            <tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <h1>h1. Size of head <small>editor Nick</small></h1>
+    <h2>h2. Size of head <small>editor Nick</small></h2>
+    <h3>h3. Size of head <small>editor Nick</small></h3>
+    <h4>h4. Size of head <small>editor Nick</small></h4>
+    <h5>h5. Size of head <small>editor Nick</small></h5>
+    <h6>h6. Size of head <small>editor Nick</small></h6>
+    <p class="lead">
+      I am still working on my website. <mark>My name is Nick</mark>
+    </p>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputFile">File input</label>
+        <input type="file" id="exampleInputFile">
+        <p class="help-block">Example block-level help text here.</p>
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Check me out
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="">
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    <div class="checkbox disabled">
+      <label>
+        <input type="checkbox" value="" disabled>
+        Option two is disabled
+      </label>
+    </div>
+
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+      </label>
+    </div>
+    <div class="radio disabled">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        Option three is disabled
+      </label>
+    </div>
+    <div>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox1" value="option1"> A choose what you want
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox2" value="option2"> B choose what you want
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox3" value="option3"> C choose what you want
+      </label>
+    </div>
+    <div>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> A choose one of these
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> B choose one of these
+      </label>
+      <label class="radio-inline">
+        <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> c choose one of these
+      </label>
+    </div>
+    <select class="form-control">
+      <option>choose none</option>
+      <option>choose a</option>
+      <option>choose b</option>
+      <option>choose c</option>
+      <option>choose d</option>
+      <option>choose e</option>
+    </select>
+
+
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="/library/jquery/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
