@@ -18,6 +18,6 @@
   "homepage": "https://github.com/aiqingr/bootstrap1#readme",
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "jquery": "^3.1.0"
+    "jquery": "2.x"
   }
 }
