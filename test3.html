@@ -23,26 +23,146 @@
 
     <link href="/css/blog.css" rel="stylesheet" />
     <link href="/css/docs.min.css" rel="stylesheet" />
+    <style>
+    .container-fluid {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+    </style>
 
     <script src="/library/jquery/jquery.min.js"></script>
     <script src="/library/bootstrap/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="alert alert-success" role="alert">
-          <a herf="#" class="alert-link">success</a>
-        </div>
-        <div class="alert alert-info" role="alert">
-          <a herf="#" class="alery-link">Heads up</a>
-        </div>
-        <div class="alert alert-waning" role="alert">
-          <a href="#" class="alert-link">Warning</a>
-        </div>
-        <div class="alert alert-danger" role="alert">
-          <a herf="#" class="alert-link">Danger</a>
+        <div class="col-md-8">
+          <div class="alert alert-success" role="alert">
+            <a herf="#" class="alert-link">success</a>
+          </div>
+          <div class="alert alert-info" role="alert">
+            <a herf="#" class="alery-link">Heads up</a>
+          </div>
+          <div class="alert alert-warning" role="alert">
+            <a href="#" class="alert-link">Warning</a>
+          </div>
+          <div class="alert alert-danger" role="alert">
+            <a herf="#" class="alert-link">Danger</a>
+          </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+              <span class="sr-only">60% complete</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valumin="0" aria-valuemax="100" style="width: 50%;">
+              <span class="sr-only">50% complete</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+              60%
+              <span class="sr-only">60% complete</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6" style="height:40px;"></div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width:2em; width: 2%">
+            2%
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width:2em; width: 2%">
+            2%
+           </div>
+         </div>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger progress-bar-striped" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+          60%
+        </div>
+      </div>
+
+      <div class="bs-example" data-example-id="simple-list-group">
+        <ul class="list-group">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Morbi leo risus</li>
+          <li class="list-group-item">Porta ac consectetur ac</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
+
+      <div class="bs-example" data-example-id="simple-list-group">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <span class="badge">14</span>
+            Cras justo odio
+          </li>
+          <li class="list-group-item">
+            <span class="badge">21</span>
+            what is going on
+          </li>
+          <li class="list-group-item">
+            <span class="badge">12</span>
+            I think I have the idea
+          </li>
+        </ul>
+      </div>
+
+      <div class="bs-example" data-example-id="simple-list-group">
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            Cras justo odio
+          </a>
+          <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+          <a href="#" class="list-group-item">Morbi leo risus</a>
+          <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+          <a href="#" class="list-group-item">Vestibulum at eros</a>
+        </div>
+      </div>
+
+
+      <div class="bs-example" data-example-id="simple-list-group">
+        <div class="list-group">
+          <button type="button" class="list-group-item">Cras justo odio</button>
+          <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+          <button type="button" class="list-group-item">Morbi leo risus</button>
+          <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+          <button type="button" class="list-group-item">Vestibulum at eros</button>
+        </div>
+      </div>
+
+
+      <div class="bs-example" data-example-id="simple-list-group">
+        <ul class="list-group">
+          <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+          <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+          <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+          <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+        </ul>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
+          <a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
+          <a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
+          <a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+        </div>
+      <div>
+
+
     </div>
 
 
